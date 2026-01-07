@@ -1,1 +1,6 @@
-words = ["skopos"]
+words = [
+    "dnsmon",
+    "goversion",
+    "skopos",
+    "svcmon",
+]

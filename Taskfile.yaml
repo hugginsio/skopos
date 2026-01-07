@@ -1,0 +1,24 @@
+# https://taskfile.dev
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: 3
+
+tasks:
+  bench:
+    desc: run all benchmarks
+    cmd: "go test -bench . ./..."
+  dnsmon:dev:
+    desc: run dnsmon locally
+    dir: "./cmd/dnsmon/"
+    cmd: "go run ."
+    env:
+      DEVEL: true
+  svcmon:dev:
+    desc: run svcmon locally
+    dir: "./cmd/svcmon/"
+    cmd: "go run ."
+    env:
+      DEVEL: true
+  test:
+    desc: run all tests
+    cmd: "go test ./..."
