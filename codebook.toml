@@ -1,6 +1,9 @@
 words = [
     "dnsmon",
+    "dnsv",
     "goversion",
+    "ipnstate",
     "skopos",
     "svcmon",
+    "tsnet",
 ]

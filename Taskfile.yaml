@@ -13,6 +13,8 @@ tasks:
     cmd: "go run ."
     env:
       DEVEL: true
+    dotenv:
+      - ".env"
   svcmon:dev:
     desc: run svcmon locally
     dir: "./cmd/svcmon/"
