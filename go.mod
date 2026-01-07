@@ -3,10 +3,8 @@ module github.com/hugginsio/skopos
 go 1.25.5
 
 require (
-	connectrpc.com/connect v1.19.1
 	github.com/adrg/xdg v0.5.3
 	github.com/caarlos0/go-version v0.2.2
-	google.golang.org/protobuf v1.36.11
 	tailscale.com v1.92.5
 )
 
@@ -57,5 +55,6 @@ require (
 	golang.org/x/time v0.11.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 	gvisor.dev/gvisor v0.0.0-20250205023644-9414b50a5633 // indirect
 )
